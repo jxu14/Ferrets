@@ -25,3 +25,16 @@ form {
 nav {
 	text-align: right;
 }
+
+.onecol {
+	width: 94%;
+	height: auto;
+	padding: 3%;
+	margin: none;
+}
+
+.twocols {
+	width: 45%;
+	padding: 2%;
+	height: 250px;
+}
