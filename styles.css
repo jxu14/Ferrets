@@ -1,17 +1,36 @@
+html {
+	font-family: 'Ubuntu', cursive;
+	font-size: 25px;
 
+}
+
+input {
+	font-family: 'Ubuntu', cursive;
+	font-size: 15px;
+}
+
+input.page:hover {
+	color: blue;
+}
 input.goto {
 	width: 100px;
 	height: 40px;
 	color: blue;
 	background: orange;
 	border-radius: 15px;
+	margin-top: 65px;
+	margin-right: 10px;
 }
 
+iframe {
+	float: right;
+}
 input.page {
 	width: 100px;
 	height: 40px;
-	color: white;
-	background: green;
+	color: black;
+	background: white;
+	border: none;
 	border-radius: 15px;
 }
 
@@ -24,17 +43,39 @@ form {
 
 nav {
 	text-align: right;
+	background-color: white;
+	height: 5em;
+	margin-top: 7px;
+}
+
+#logo {
+	margin-top: 9px;
+	height: 111px;
+	float: left;
+	margin-left: 25px;
+}
+
+html, body {
+	margin: 0;
+	left: 0;
+	width: 100%;
+	padding: 0;
 }
 
 .onecol {
-	width: 94%;
-	height: auto;
+	max-width: 94%;
+	max-height: 100%;
 	padding: 3%;
 	margin: none;
 }
 
-.twocols {
-	width: 45%;
+/*.twocols {
+	width: 40%;
+	height: 40%;
 	padding: 2%;
 	height: 250px;
+}*/
+
+.left {
+	float: left;
 }
