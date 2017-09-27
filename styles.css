@@ -34,8 +34,8 @@ input.page {
 	border-radius: 15px;
 }
 
-#facts {
-	width: 170px;
+#github {
+	width: 200px;
 }
 form {
 	display: inline;
@@ -78,4 +78,23 @@ html, body {
 
 .left {
 	float: left;
+}
+
+.first {
+	position: relative;
+	width: 100%;
+
+}
+
+.overright {
+	position: absolute;
+	top: 350px;
+	float: right;
+	right: 0;
+	font-family: ubuntu, cursive;
+	width: 45%;
+	height: 45%;
+	border-radius: 360px;
+	opacity:0.6;
+	font-size: 50px;
 }
