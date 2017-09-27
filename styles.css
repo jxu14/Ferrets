@@ -1,9 +1,9 @@
-form {
-  border: solid;
-  padding: none;
-  margin: none;
+
+input.goto {
+	width: 100px;
+	height: 50px;
 }
 
-#login {
-  border-radius: 100px;
+form {
+	display: inline;
 }
