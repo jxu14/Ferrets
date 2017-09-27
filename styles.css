@@ -1,9 +1,16 @@
-form {
-  border: solid;
-  padding: none;
-  margin: none;
+
+input.goto {
+	width: 100px;
+	height: 40px;
+	color: blue;
+	background: orange;
+	border-radius: 15px;
 }
 
-#login {
-  border-radius: 100px;
+form {
+	display: inline;
+}
+
+nav {
+	text-align: right;
 }
