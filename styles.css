@@ -7,6 +7,17 @@ input.goto {
 	border-radius: 15px;
 }
 
+input.page {
+	width: 100px;
+	height: 40px;
+	color: white;
+	background: green;
+	border-radius: 15px;
+}
+
+#facts {
+	width: 170px;
+}
 form {
 	display: inline;
 }
