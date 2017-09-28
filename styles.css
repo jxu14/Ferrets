@@ -16,12 +16,16 @@ input.goto {
 	width: 100px;
 	height: 40px;
 	color: blue;
-	background: orange;
+	border: none;
+
 	border-radius: 15px;
 	margin-top: 65px;
 	margin-right: 10px;
+	text-decoration: underline;
 }
-
+input.goto:hover {
+	color: orange;
+}
 iframe {
 	float: right;
 }
@@ -29,11 +33,15 @@ input.page {
 	width: 100px;
 	height: 40px;
 	color: black;
-	background: white;
+	background: none;
 	border: none;
 	border-radius: 15px;
 }
-
+section {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
 #github {
 	width: 200px;
 }
@@ -48,6 +56,15 @@ nav {
 	margin-top: 7px;
 }
 
+.lightblue {
+	background: lightblue;
+}
+
+.white {
+	background: white;
+	float: right;
+}
+
 #logo {
 	margin-top: 9px;
 	height: 111px;
@@ -56,10 +73,15 @@ nav {
 }
 
 html, body {
-	margin: 0;
+	margin: 0px;
 	left: 0;
 	width: 100%;
-	padding: 0;
+	padding: 0px;
+}
+
+img {
+	padding: 0px;
+	margin: 0px;
 }
 
 .onecol {
@@ -88,13 +110,19 @@ html, body {
 
 .overright {
 	position: absolute;
-	top: 350px;
+	top: 300px;
 	float: right;
-	right: 0;
+	right: 40px;
 	font-family: ubuntu, cursive;
-	width: 45%;
-	height: 45%;
-	border-radius: 360px;
+	width: 500px;
+	height: 500px;
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
+	border-radius: 250px;
 	opacity:0.6;
 	font-size: 50px;
+}
+
+.titleimage {
+	height: 600px;
 }
